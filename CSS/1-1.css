@@ -1,0 +1,33 @@
+div {
+  margin-left: 50px;
+}
+
+p {
+  font-size: 40px;
+  line-height: 2;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.script>img {
+  display: block;
+  height: 50px;
+  margin-bottom: 50px;
+}
+
+button {
+  height:50px;
+  width: 100px;
+}
+
+.btn {
+  width: 130px;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  box-sizing: border-box;
+  margin-left: 50px;
+
+}

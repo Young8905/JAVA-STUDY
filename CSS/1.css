@@ -1,0 +1,88 @@
+h1 {
+  font-size: 40px;
+  color: red;
+  padding: 10px;
+}
+
+.sense {
+  border-bottom: 2px solid #000;
+}
+
+.sense>p {
+  text-indent: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.sense>li {
+  text-indent: 50px;
+  line-height: 1.5;
+}
+
+.sense>li:last-child {
+  padding-bottom: 20px;
+}
+
+.role {
+  border-bottom: 2px solid #000;
+}
+
+.role>li {
+  line-height: 1.5;
+  text-indent: 50px;
+}
+
+.role>li:last-child {
+  padding-bottom: 20px;
+}
+
+.role>p {
+  text-indent: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.option {
+  border-bottom: 2px solid #000;
+  line-height: 1.5;
+}
+
+.option a { 
+  padding: 50px;  
+}
+
+.option>p {
+  text-indent: 40px;
+  font-size: 30px;
+  
+}
+
+.option>li {
+  text-indent : 50px;
+}
+
+.option>li:last-child {
+  padding-bottom: 20px;
+}
+
+.script {
+  border-bottom: 2px solid #000;
+  line-height: 1.5;
+}
+
+.script>p {
+  font-size: 30px;
+  text-indent : 40px;
+
+}
+
+.script>li {
+  text-indent: 50px;
+}
+
+.script img {
+  margin-bottom:20px;
+  margin-left: 70px;
+}

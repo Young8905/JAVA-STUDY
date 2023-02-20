@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../IMAGES/Doit.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/1-2.css">
+  <title>내부스크립트 예시</title>
+</head>
+
+<body>
+  <header>
+    <a href="/" class="logo">
+      <img src="../images/doit.png" alt="Doit">
+    </a>
+    <div class="title">
+      <div class="title1">
+        한 권으로 끝내는 웹 개발 교과서
+      </div>
+      <div class="title2">
+        모던 자바스크립트 프로그래밍의 정석 - 내부스크립트
+      </div>
+    </div>
+  </header>
+
+  <div class="script">
+    <p>내부스크립트 : HTML문서 내 script선언 후 내부에 함수 구현, 정적 페이지 로드 후 실행</p>
+    <p>ex) 내부 스크립트를 작성해 무작위로 문서의 배경색 바꾸기</p>
+    <img src="../images/internal-script.png" alt="내부스크립트">
+    
+    <p>새로 고침해 보세요</p>
+    <script>
+      function random(number) {
+        return Math.floor(Math.random() * number);
+      }
+
+      function bgChange() {
+        const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+        document.body.style.backgroundColor = rndCol;
+      }
+      bgChange();
+    </script>
+  </div>
+
+  <br/>
+  <a href="./1.html" class="btn">뒤로가기</a>
+
+</body>
+
+</html>
