@@ -1,0 +1,102 @@
+.input {
+  border-bottom: 2px solid #000;
+}
+
+.input>p {
+  text-indent: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+
+}
+
+.input>li {
+  text-indent: 50px;
+  line-height: 1.5;
+}
+
+.input>li:last-child {
+  padding-bottom: 20px;
+}
+
+
+
+.variable {
+  border-bottom: 2px solid #000;
+}
+
+.variable>li {
+  line-height: 1.5;
+  text-indent: 50px;
+}
+
+.variable>li:last-child {
+  padding-bottom: 20px;
+}
+
+.variable>p {
+  text-indent: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+
+
+.Data-type {
+  border-bottom: 2px solid #000;
+  line-height: 1.5;
+}
+
+.Data-type a {
+  padding: 50px;
+}
+
+.Data-type>p {
+  text-indent: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+
+}
+
+.Data-type>li {
+  text-indent: 50px;
+}
+
+.Data-type>li:last-child {
+  padding-bottom: 20px;
+}
+
+.Data-type>img {
+  margin-left: 70px;
+
+}
+
+
+
+.conversion {
+  border-bottom: 2px solid #000;
+  line-height: 1.5;
+}
+
+.conversion>p {
+  font-size: 30px;
+  text-indent: 40px;
+
+}
+
+.conversion>li {
+  text-indent: 50px;
+}
+
+.conversion>p {
+  text-indent: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.conversion>li:last-child {
+  padding-bottom: 20px;
+}

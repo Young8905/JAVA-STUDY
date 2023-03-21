@@ -61,7 +61,14 @@ header .title .title2 {
   bottom: 20px;
 }
 
+p {
+  color: blue;
+}
 
-
-
+h1 {
+  font-size: 40px;
+  color: red;
+  padding: 10px;
+  font-weight: 700;
+}
 
